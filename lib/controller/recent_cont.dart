@@ -9,7 +9,7 @@ class Recent_cont extends GetxController {
     var uri =
         "https://jsearch.p.rapidapi.com/search?query=$search_input&page=1&num_pages=1&date_posted=$time&remote_jobs_only=false&employment_types=FULLTIME&job_requirements=no_experience";
     var responce = await http.get(Uri.parse(uri), headers: {
-      'X-RapidAPI-Key': 'c04a2a8f53msh0d9ee9b26c6c23fp1608a6jsn1550b5c33e60'
+      'X-RapidAPI-Key': '46a3491eafmsh88bb5097de05402p11650bjsnca51e67217c4'
     });
 
     var data = jsonDecode(responce.body);
